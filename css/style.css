@@ -1,0 +1,69 @@
+html {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.8;
+  color: white;
+  max-width: 100%;
+  background-image: url("../image/img.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+h1 {
+	font-size: 3.8em;
+	text-align: center;
+	padding-top: 75px;
+}
+.top{
+	padding-top: 75px;
+}
+#head{
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 10px;
+}
+.btn {
+  margin-top: 50px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.profile-info {
+	font-size: 1.7em;
+	margin: 30px 50px;
+ }
+
+.profile-wrapper{
+    margin-left: 20px;
+    width: 100%;
+}
+.fee{
+	font-size: 1.7em;
+}
+h2{
+  margin-bottom: 15px;
+
+}
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 3.2em;
+  }
+   #head{
+    font-size: 1.2em;
+    overflow-x: hidden !important;
+  }
+  .profile-info{
+    font-size: 1.3em;
+  }
+  .fee{
+    font-size: 1.4em;
+   }
+     }

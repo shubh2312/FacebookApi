@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shubham Singh</title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+ </head>
+ <body data-spy="scroll" data-offset="180">
+
+<!-- To get information about user profile through facebook API -->
+
+ <section class="facebookInfo top " >
+ <div class="container first-div">
+ <div class="row">
+ 	<h1 >Hi! My name is Shubham</h1>
+ 	<p id="head">To get information from Facebook API</p>
+     
+     <!-- to get the required information on clicking the button -->
+ 	<div class="col-xs-12 col-sm-6">
+
+     <button type="button" class="btn btn-primary btn-lg btn-block" id="facebookBtn">Click here to get profile info</button>
+
+   </div>
+    <div class="col-xs-12 col-sm-6">
+
+     <button type="button" class="btn btn-info btn-lg btn-block" id="loadDataBtn">Click here to get feed</button>
+
+   </div>
+
+  </div>
+  </div>
+  </section>
+
+<!-- To display the profile-info received from facebook Api -->
+  <div class="container profile-info second-div">
+   <div class="row">
+      <div id="profile-con">
+          <div class="profile-wrapper">
+             <h2>Profile Info</h2>
+              <p>
+                  Name - <span id="myName"></span>
+              </p>
+             <p>
+                  Email - <span id="myEmail"></span> 
+              </p>
+               <p>
+                  ProfileId -  <span id="myProfileId"></span> 
+              </p>
+               <p>
+                  HomeTown - <span id="myHomeTown"></span> 
+              </p>
+               <p>
+                  About - <span id="myAbout"></span> 
+              </p>
+                            </div>
+                      </div>
+                </div>
+         </div>
+
+<!-- To get feed and to go back to the home page -->
+  <div class="container btn1 third-div">
+  <div class="row">
+  <div class="col-xs-12 col-sm-6">
+
+     <button type="button" class="btn btn-info btn-lg btn-block" id="loadDataButton">Click here to get feed</button>
+
+      </div>
+  <div class="col-xs-12 col-sm-6">
+
+     <button type="button" class="btn btn-success btn-lg btn-block" id="homeBtn">Go to home page</button>
+
+      </div>
+  </div>
+</div>
+
+<!-- To get feed of user profile through facebook API -->
+
+<section id="facebookFeed">
+
+<div class="container profile-feed fourth-div">
+	<h2>Feed</h2>
+	<div id ="result">
+
+          </div>
+   </div>
+  
+ </section>
+
+<!--To go back to the profile page and the home page-->
+
+ 	<div class="container fifth-div">
+  <div class="row">
+  <div class="col-xs-12 col-sm-6">
+
+     <button type="button" class="btn btn-primary btn-lg btn-block" id="facebookButton">Click here to get profile info</button>
+
+      </div>
+  <div class="col-xs-12 col-sm-6">
+
+     <button type="button" class="btn btn-success btn-lg btn-block" id="homeButton">Go to home page</button>
+
+      </div>
+  </div>
+</div>
+
+
+
+ 	<script type="text/javascript" src="js/jquery.min.js"></script>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+ </body>
+ </html>
